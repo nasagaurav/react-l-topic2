@@ -3,12 +3,24 @@ import "./style.css";
 
 export default function App() {
 
-  const p1=()=>{}
-  const p2=()=>{}
-  const p3=()=>{}
-  const p4=()=>{}
-  const p5=()=>{}
-  const p6=()=>{}
+  const p1=()=>{
+    document.title="lalit"
+  }
+  const p2=()=>{
+    document.title="amit"
+  }
+  const p3=()=>{
+    document.title="sumit"
+  }
+  const p4=()=>{
+    document.title="punit"
+  }
+  const p5=()=>{
+    document.title="kumit"
+  }
+  const p6=()=>{
+    document.title="jumit"
+  }
 
   return (
     <div>
