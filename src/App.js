@@ -12,6 +12,10 @@ export default function App() {
     setx(x - 1);
   };
 
+  const p3 = () => {
+    sety(y + 1);
+  };
+
   return (
     <div>
       <h1>counter {x} </h1>
