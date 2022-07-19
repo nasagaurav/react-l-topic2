@@ -14,9 +14,15 @@ export default function App() {
     setx(0);
   };
 
+  const changeTitle = () => {
+    document.title = x;
+  };
+
+  React.useEffect(changeTitle, [x]);
+
   return (
     <div>
-      <h1>counter  {x} </h1>
+      <h1>counter {x} </h1>
       <button onClick={p1}>+</button>
       <button onClick={p2}>-</button>
       <button onClick={p3}>0</button>
