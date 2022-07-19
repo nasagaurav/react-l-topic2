@@ -8,7 +8,9 @@ export default function App() {
   const handleChange = (e) => {
     settopic(e.target.value);
   };
-  const addTopic = () => {};
+  const addTopic = () => {
+    seta([...a,topic])
+  };
   return (
     <div>
       <input value={topic} onChange={handleChange} />
