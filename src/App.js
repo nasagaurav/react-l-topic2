@@ -17,7 +17,13 @@ export default function App() {
   const changeTitle = () => {
     document.title = x;
   };
-  
+  const handleChange = (e) => {
+    // console.log(e);
+    // console.log(e.target);
+    // console.log(e.target.value);
+    const inputValue = +e.target.value; //+ here says to convert string into number
+    setx(inputValue)
+  };
   React.useEffect(changeTitle, [x]);
 
   return (
