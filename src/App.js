@@ -4,13 +4,13 @@ import "./style.css";
 export default function App() {
 
   const p1=()=>{
-    document.title="lalit"
+    document.title="welcome to mirzapur"
   }
   const p2=()=>{
-    document.title="amit"
+    document.title="munna bhaiya"
   }
   const p3=()=>{
-    document.title="sumit"
+    document.title="kalin bhaiya"
   }
   const p4=()=>{
     document.title="punit"
