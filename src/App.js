@@ -33,6 +33,7 @@ export default function App() {
   return (
     <div>
       <input type="number" onChange={handleChange} />
+      <input type="range" onChange={handleChange} />
       <h1>counter {x} </h1>
       <button onClick={p1}>+</button>
       <button onClick={p2}>-</button>
