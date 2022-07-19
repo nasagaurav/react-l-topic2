@@ -16,6 +16,8 @@ export default function App() {
     sety(y + 1);
   };
 
+  React.useEffect(p3,[x])
+
   return (
     <div>
       <h1>counter {x} </h1>
