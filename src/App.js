@@ -7,10 +7,13 @@ export default function App() {
   const handleChange = (e) => {
     settopic(e.target.value);
   };
+  const addTopic=()=>{
+    
+  }
   return (
     <div>
       <input value={topic} onChange={handleChange} />
-      <button>add topic </button>
+      <button onClick={addTopic}>add topic </button>
       <ol>
         <li>topic name is </li>
       </ol>
