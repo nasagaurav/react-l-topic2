@@ -16,6 +16,7 @@ export default function App() {
 
   return (
     <div>
+      <h1>counter  {x} </h1>
       <button onClick={p1}>+</button>
       <button onClick={p2}>-</button>
       <button onClick={p3}>0</button>
