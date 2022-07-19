@@ -17,11 +17,12 @@ export default function App() {
   const changeTitle = () => {
     document.title = x;
   };
-
+  
   React.useEffect(changeTitle, [x]);
 
   return (
     <div>
+      <input type="number" onChange={handleChange} />
       <h1>counter {x} </h1>
       <button onClick={p1}>+</button>
       <button onClick={p2}>-</button>
